@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background-color: #f0f0f0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.timer-section {
+  text-align: center;
+  margin: 0 auto; /* Center the timer section horizontally */
+  width: 350px; /* Set width of the timer section */
+  height: 250px;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.timer {
+  font-size: 36px; /* Triple the font size */
+  margin-bottom: 20px;
+}
+
+
+.controls button {
+  margin-right: 10px;
+  border-radius: 10px; /* Make buttons rounded */
+  font-family: Arial, sans-serif; /* Set font family to Arial */
+  font-size: 20px; /* Double the font size */
+}
+
+.controls button:last-child {
+  margin-right: 0;
+}
+
+.task-section {
+  margin-top: 20px;
+  max-width: 90vw; /* Set maximum width to 90% of viewport width */
+}
+
+.task-table {
+  max-width: 600px; /* Set maximum width of the task table */
+  width: 100%; /* Set width to 100% */
+  border-collapse: collapse;
+}
+
+.task-table th {
+  width: 0.5em;
+  font-weight: bold; /* Make header text bold */
+}
+
+.task-table td,
+.task-table th {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+table {
+  width: 100%;
+}
+
+table td,
+table th {
+  padding: 8px;
+}
+
+table td {
+  text-align: left;
+}
+
+table th:first-child,
+table td:first-child {
+  width: 10%;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+  width: 25%;
+}
+
+table th:nth-child(3),
+table td:nth-child(3) {
+  width: 5%;
+}
+
+table th:nth-child(4),
+table td:nth-child(4) {
+  width: 5%;
+  text-align: center;
+}
+
+table th:nth-child(5),
+table td:nth-child(5) {
+  width: 45%;
+  text-align: center;
+}
+
+table th:nth-child(6),
+table td:nth-child(6) {
+  width: 10%;
+  text-align: center;
+}
+
+/* Add Task button */
+#add-task-btn {
+  background-color: white; /* Set background color to white */
+  border-radius: 20px; /* Rounded corners */
+  font-family: Arial; /* Set font family */
+  font-size: 24px; /* Increase font size by 30% */
+}
+
+/* Save button */
+#save-btn {
+  background-color: white; /* Set background color to white */
+  border-radius: 20px; /* Rounded corners */
+  font-family: Arial; /* Set font family */
+  font-size: 24px; /* Increase font size by 30% */
+}
